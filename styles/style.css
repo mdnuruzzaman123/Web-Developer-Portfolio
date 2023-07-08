@@ -83,6 +83,9 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* about section styles */
 .about{
@@ -122,6 +125,24 @@ main{
     margin:10x ;
     color:#474747 ;
 }
+/* skills releted styles */
 #what-i-do-description{
     padding: 30px 150px;
+}
+
+.allskills{
+    display:flex;
+    gap: 24px;
+}
+.skill {
+    padding: 24px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    background-color:  #FFF;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
 }
