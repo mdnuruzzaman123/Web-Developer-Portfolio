@@ -78,3 +78,47 @@ nav a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section styles */
+.about{
+    margin: 130px 0px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    margin:10px ;
+}
+.info-description{
+    font-weight: bold;
+    margin:10x ;
+    color:#474747 ;
+}
